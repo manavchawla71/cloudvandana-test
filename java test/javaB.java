@@ -6,7 +6,6 @@ public class RomanToInteger {
     }
 
     public static int romanToInteger(String s) {
-        // Create a mapping of Roman numerals to integers
         int[] values = {1000, 500, 100, 50, 10, 5, 1};
         char[] symbols = {'M', 'D', 'C', 'L', 'X', 'V', 'I'};
 
